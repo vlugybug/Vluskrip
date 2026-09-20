@@ -1,0 +1,8 @@
+# File ini dipakai Netlify untuk memasang pengaman tambahan pada website.
+# Letakkan di folder yang sama dengan index.html saat upload.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Content-Security-Policy: frame-ancestors 'none'
